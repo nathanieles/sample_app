@@ -1,0 +1,13 @@
+
+
+Processing ApplicationController#index (for 127.0.0.1 at 2010-06-07 04:43:10) [GET]
+
+ActionController::RoutingError (No route matches "/about" with {:method=>:get}):
+  
+
+Rendering rescues/layout (not_found)
+
+
+Processing PagesController#home (for 127.0.0.1 at 2010-06-07 04:43:26) [GET]
+Rendering pages/home
+Completed in 98ms (View: 96, DB: 0) | 200 OK [http://0.0.0.0/pages/home]
