@@ -2151,3 +2151,138 @@ Rendered layouts/_stylesheets (0.5ms)
 Rendered layouts/_header (0.5ms)
 Rendered layouts/_footer (0.2ms)
 Completed in 3ms (View: 3, DB: 0) | 200 OK [http://test.host/]
+
+
+Processing PagesController#home (for 127.0.0.1 at 2010-06-09 20:33:50) [GET]
+Rendering template within layouts/application
+Rendering pages/home
+Rendered layouts/_stylesheets (0.9ms)
+Rendered layouts/_header (1.0ms)
+Rendered layouts/_footer (0.5ms)
+Completed in 14ms (View: 12, DB: 0) | 200 OK [http://www.example.com/]
+
+
+Processing PagesController#contact (for 127.0.0.1 at 2010-06-09 20:33:50) [GET]
+Rendering template within layouts/application
+Rendering pages/contact
+Rendered layouts/_stylesheets (0.4ms)
+Rendered layouts/_header (0.5ms)
+Rendered layouts/_footer (0.2ms)
+Completed in 3ms (View: 3, DB: 0) | 200 OK [http://www.example.com/contact]
+
+
+Processing PagesController#about (for 127.0.0.1 at 2010-06-09 20:33:50) [GET]
+Rendering template within layouts/application
+Rendering pages/about
+Rendered layouts/_stylesheets (0.5ms)
+Rendered layouts/_header (0.5ms)
+Rendered layouts/_footer (0.2ms)
+Completed in 3ms (View: 3, DB: 0) | 200 OK [http://www.example.com/about]
+
+
+Processing PagesController#help (for 127.0.0.1 at 2010-06-09 20:33:50) [GET]
+Rendering template within layouts/application
+Rendering pages/help
+Rendered layouts/_stylesheets (0.5ms)
+Rendered layouts/_header (0.5ms)
+Rendered layouts/_footer (0.2ms)
+Completed in 4ms (View: 3, DB: 0) | 200 OK [http://www.example.com/help]
+
+
+Processing UsersController#new (for 127.0.0.1 at 2010-06-09 20:33:50) [GET]
+Rendering template within layouts/application
+Rendering users/new
+Rendered layouts/_stylesheets (0.5ms)
+Rendered layouts/_header (0.5ms)
+Rendered layouts/_footer (0.2ms)
+Completed in 5ms (View: 3, DB: 0) | 200 OK [http://www.example.com/signup]
+
+
+Processing UsersController#new (for 0.0.0.0 at 2010-06-09 20:33:50) [GET]
+Rendering template within layouts/application
+Rendering users/new
+Rendered layouts/_stylesheets (0.5ms)
+Rendered layouts/_header (0.5ms)
+Rendered layouts/_footer (0.2ms)
+Completed in 3ms (View: 3, DB: 0) | 200 OK [http://test.host/signup]
+
+
+Processing UsersController#new (for 0.0.0.0 at 2010-06-09 20:33:50) [GET]
+Rendering template within layouts/application
+Rendering users/new
+Rendered layouts/_stylesheets (0.5ms)
+Rendered layouts/_header (0.5ms)
+Rendered layouts/_footer (0.2ms)
+Completed in 3ms (View: 3, DB: 0) | 200 OK [http://test.host/signup]
+
+
+Processing PagesController#help (for 0.0.0.0 at 2010-06-09 20:33:50) [GET]
+Rendering template within layouts/application
+Rendering pages/help
+Rendered layouts/_stylesheets (0.5ms)
+Rendered layouts/_header (0.5ms)
+Rendered layouts/_footer (0.2ms)
+Completed in 3ms (View: 3, DB: 0) | 200 OK [http://test.host/help]
+
+
+Processing PagesController#help (for 0.0.0.0 at 2010-06-09 20:33:50) [GET]
+Rendering template within layouts/application
+Rendering pages/help
+Rendered layouts/_stylesheets (0.4ms)
+Rendered layouts/_header (0.5ms)
+Rendered layouts/_footer (0.2ms)
+Completed in 3ms (View: 2, DB: 0) | 200 OK [http://test.host/help]
+
+
+Processing PagesController#about (for 0.0.0.0 at 2010-06-09 20:33:50) [GET]
+Rendering template within layouts/application
+Rendering pages/about
+Rendered layouts/_stylesheets (0.5ms)
+Rendered layouts/_header (0.5ms)
+Rendered layouts/_footer (0.2ms)
+Completed in 3ms (View: 2, DB: 0) | 200 OK [http://test.host/about]
+
+
+Processing PagesController#about (for 0.0.0.0 at 2010-06-09 20:33:50) [GET]
+Rendering template within layouts/application
+Rendering pages/about
+Rendered layouts/_stylesheets (0.4ms)
+Rendered layouts/_header (0.5ms)
+Rendered layouts/_footer (0.2ms)
+Completed in 3ms (View: 2, DB: 0) | 200 OK [http://test.host/about]
+
+
+Processing PagesController#contact (for 0.0.0.0 at 2010-06-09 20:33:50) [GET]
+Rendering template within layouts/application
+Rendering pages/contact
+Rendered layouts/_stylesheets (0.5ms)
+Rendered layouts/_header (0.5ms)
+Rendered layouts/_footer (0.3ms)
+Completed in 3ms (View: 3, DB: 0) | 200 OK [http://test.host/contact]
+
+
+Processing PagesController#contact (for 0.0.0.0 at 2010-06-09 20:33:50) [GET]
+Rendering template within layouts/application
+Rendering pages/contact
+Rendered layouts/_stylesheets (0.6ms)
+Rendered layouts/_header (0.5ms)
+Rendered layouts/_footer (0.2ms)
+Completed in 5ms (View: 4, DB: 0) | 200 OK [http://test.host/contact]
+
+
+Processing PagesController#home (for 0.0.0.0 at 2010-06-09 20:33:50) [GET]
+Rendering template within layouts/application
+Rendering pages/home
+Rendered layouts/_stylesheets (0.4ms)
+Rendered layouts/_header (0.4ms)
+Rendered layouts/_footer (0.2ms)
+Completed in 3ms (View: 3, DB: 0) | 200 OK [http://test.host/]
+
+
+Processing PagesController#home (for 0.0.0.0 at 2010-06-09 20:33:50) [GET]
+Rendering template within layouts/application
+Rendering pages/home
+Rendered layouts/_stylesheets (0.5ms)
+Rendered layouts/_header (0.5ms)
+Rendered layouts/_footer (0.2ms)
+Completed in 3ms (View: 3, DB: 0) | 200 OK [http://test.host/]

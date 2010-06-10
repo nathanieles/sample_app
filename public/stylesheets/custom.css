@@ -13,14 +13,15 @@ body {
 
 #header img {
   padding: 1em;
-  background: #fff;
+  background: #000;
 }
 
 #content {
   margin-top: 1em;
   font-size: 120%;
   padding: 20px;
-  background: #fff;
+  background: #FFF;
+  font-family: Helvetica;
 }
 
 /* links */
@@ -82,11 +83,12 @@ a.signup_button {
   display: block; 
   text-align: center; 
   width: 190px; 
-  color: #fff; 
-  background: #006400; 
-  font-size: 150%; 
-  font-weight: bold; 
-  padding: 20px;
+  color: #069; 
+  background: #00FF66; 
+  font-size: 120%; 
+  /*font-weight: bold; */
+  padding: 15px;
+  font-family: Helvetica;
 }
 
 /*round corners */
