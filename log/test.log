@@ -2286,3 +2286,953 @@ Rendered layouts/_stylesheets (0.5ms)
 Rendered layouts/_header (0.5ms)
 Rendered layouts/_footer (0.2ms)
 Completed in 3ms (View: 3, DB: 0) | 200 OK [http://test.host/]
+
+
+Processing PagesController#help (for 0.0.0.0 at 2010-06-12 01:39:11) [GET]
+Rendering template within layouts/application
+Rendering pages/help
+Rendered layouts/_stylesheets (1.8ms)
+Rendered layouts/_header (8.8ms)
+Rendered layouts/_footer (0.7ms)
+Completed in 38ms (View: 36, DB: 0) | 200 OK [http://test.host/help]
+
+
+Processing PagesController#help (for 0.0.0.0 at 2010-06-12 01:39:11) [GET]
+Rendering template within layouts/application
+Rendering pages/help
+Rendered layouts/_stylesheets (0.5ms)
+Rendered layouts/_header (0.5ms)
+Rendered layouts/_footer (0.2ms)
+Completed in 3ms (View: 2, DB: 0) | 200 OK [http://test.host/help]
+
+
+Processing PagesController#about (for 0.0.0.0 at 2010-06-12 01:39:11) [GET]
+Rendering template within layouts/application
+Rendering pages/about
+Rendered layouts/_stylesheets (0.5ms)
+Rendered layouts/_header (0.5ms)
+Rendered layouts/_footer (0.2ms)
+Completed in 3ms (View: 3, DB: 0) | 200 OK [http://test.host/about]
+
+
+Processing PagesController#about (for 0.0.0.0 at 2010-06-12 01:39:11) [GET]
+Rendering template within layouts/application
+Rendering pages/about
+Rendered layouts/_stylesheets (0.5ms)
+Rendered layouts/_header (0.5ms)
+Rendered layouts/_footer (0.2ms)
+Completed in 3ms (View: 2, DB: 0) | 200 OK [http://test.host/about]
+
+
+Processing PagesController#contact (for 0.0.0.0 at 2010-06-12 01:39:11) [GET]
+Rendering template within layouts/application
+Rendering pages/contact
+Rendered layouts/_stylesheets (0.5ms)
+Rendered layouts/_header (0.5ms)
+Rendered layouts/_footer (0.2ms)
+Completed in 3ms (View: 3, DB: 0) | 200 OK [http://test.host/contact]
+
+
+Processing PagesController#contact (for 0.0.0.0 at 2010-06-12 01:39:11) [GET]
+Rendering template within layouts/application
+Rendering pages/contact
+Rendered layouts/_stylesheets (0.5ms)
+Rendered layouts/_header (0.5ms)
+Rendered layouts/_footer (0.2ms)
+Completed in 3ms (View: 2, DB: 0) | 200 OK [http://test.host/contact]
+
+
+Processing PagesController#home (for 0.0.0.0 at 2010-06-12 01:39:11) [GET]
+Rendering template within layouts/application
+Rendering pages/home
+Rendered layouts/_stylesheets (0.5ms)
+Rendered layouts/_header (0.4ms)
+Rendered layouts/_footer (0.2ms)
+Completed in 3ms (View: 3, DB: 0) | 200 OK [http://test.host/]
+
+
+Processing PagesController#home (for 0.0.0.0 at 2010-06-12 01:39:11) [GET]
+Rendering template within layouts/application
+Rendering pages/home
+Rendered layouts/_stylesheets (0.6ms)
+Rendered layouts/_header (0.5ms)
+Rendered layouts/_footer (0.2ms)
+Completed in 7ms (View: 6, DB: 0) | 200 OK [http://test.host/]
+
+
+Processing UsersController#new (for 0.0.0.0 at 2010-06-12 01:39:11) [GET]
+Rendering template within layouts/application
+Rendering users/new
+Rendered layouts/_stylesheets (1.0ms)
+Rendered layouts/_header (0.5ms)
+Rendered layouts/_footer (0.2ms)
+Completed in 5ms (View: 3, DB: 0) | 200 OK [http://test.host/signup]
+
+
+Processing UsersController#new (for 0.0.0.0 at 2010-06-12 01:39:11) [GET]
+Rendering template within layouts/application
+Rendering users/new
+Rendered layouts/_stylesheets (1.1ms)
+Rendered layouts/_header (0.5ms)
+Rendered layouts/_footer (0.2ms)
+Completed in 3ms (View: 3, DB: 0) | 200 OK [http://test.host/signup]
+  [4;36;1mUser Create (1.2ms)[0m   [0;1mINSERT INTO "users" ("name", "created_at", "updated_at", "email") VALUES('Example User', '2010-06-12 05:39:11', '2010-06-12 05:39:11', 'user@example.com')[0m
+  [4;36;1mUser Create (0.5ms)[0m   [0;1mINSERT INTO "users" ("name", "created_at", "updated_at", "email") VALUES('Example User', '2010-06-12 05:40:41', '2010-06-12 05:40:41', 'user@example.com')[0m
+  [4;36;1mUser Create (0.5ms)[0m   [0;1mINSERT INTO "users" ("name", "created_at", "updated_at", "email") VALUES('Example User', '2010-06-12 05:41:13', '2010-06-12 05:41:13', 'user@example.com')[0m
+  [4;36;1mUser Create (0.5ms)[0m   [0;1mINSERT INTO "users" ("name", "created_at", "updated_at", "email") VALUES('Example User', '2010-06-12 05:42:53', '2010-06-12 05:42:53', 'user@example.com')[0m
+
+
+Processing PagesController#help (for 0.0.0.0 at 2010-06-12 01:42:54) [GET]
+Rendering template within layouts/application
+Rendering pages/help
+Rendered layouts/_stylesheets (1.0ms)
+Rendered layouts/_header (6.1ms)
+Rendered layouts/_footer (0.6ms)
+Completed in 12ms (View: 11, DB: 0) | 200 OK [http://test.host/help]
+
+
+Processing PagesController#help (for 0.0.0.0 at 2010-06-12 01:42:54) [GET]
+Rendering template within layouts/application
+Rendering pages/help
+Rendered layouts/_stylesheets (0.5ms)
+Rendered layouts/_header (0.5ms)
+Rendered layouts/_footer (0.2ms)
+Completed in 3ms (View: 2, DB: 0) | 200 OK [http://test.host/help]
+
+
+Processing PagesController#about (for 0.0.0.0 at 2010-06-12 01:42:54) [GET]
+Rendering template within layouts/application
+Rendering pages/about
+Rendered layouts/_stylesheets (0.5ms)
+Rendered layouts/_header (0.5ms)
+Rendered layouts/_footer (0.2ms)
+Completed in 3ms (View: 3, DB: 0) | 200 OK [http://test.host/about]
+
+
+Processing PagesController#about (for 0.0.0.0 at 2010-06-12 01:42:54) [GET]
+Rendering template within layouts/application
+Rendering pages/about
+Rendered layouts/_stylesheets (0.5ms)
+Rendered layouts/_header (0.5ms)
+Rendered layouts/_footer (0.2ms)
+Completed in 3ms (View: 3, DB: 0) | 200 OK [http://test.host/about]
+
+
+Processing PagesController#contact (for 0.0.0.0 at 2010-06-12 01:42:54) [GET]
+Rendering template within layouts/application
+Rendering pages/contact
+Rendered layouts/_stylesheets (0.5ms)
+Rendered layouts/_header (0.5ms)
+Rendered layouts/_footer (0.2ms)
+Completed in 3ms (View: 3, DB: 0) | 200 OK [http://test.host/contact]
+
+
+Processing PagesController#contact (for 0.0.0.0 at 2010-06-12 01:42:54) [GET]
+Rendering template within layouts/application
+Rendering pages/contact
+Rendered layouts/_stylesheets (0.5ms)
+Rendered layouts/_header (0.5ms)
+Rendered layouts/_footer (0.2ms)
+Completed in 3ms (View: 2, DB: 0) | 200 OK [http://test.host/contact]
+
+
+Processing PagesController#home (for 0.0.0.0 at 2010-06-12 01:42:54) [GET]
+Rendering template within layouts/application
+Rendering pages/home
+Rendered layouts/_stylesheets (0.5ms)
+Rendered layouts/_header (0.5ms)
+Rendered layouts/_footer (0.2ms)
+Completed in 3ms (View: 3, DB: 0) | 200 OK [http://test.host/]
+
+
+Processing PagesController#home (for 0.0.0.0 at 2010-06-12 01:42:54) [GET]
+Rendering template within layouts/application
+Rendering pages/home
+Rendered layouts/_stylesheets (0.5ms)
+Rendered layouts/_header (0.4ms)
+Rendered layouts/_footer (0.2ms)
+Completed in 3ms (View: 3, DB: 0) | 200 OK [http://test.host/]
+
+
+Processing UsersController#new (for 0.0.0.0 at 2010-06-12 01:42:54) [GET]
+Rendering template within layouts/application
+Rendering users/new
+Rendered layouts/_stylesheets (0.5ms)
+Rendered layouts/_header (0.5ms)
+Rendered layouts/_footer (0.2ms)
+Completed in 7ms (View: 6, DB: 0) | 200 OK [http://test.host/signup]
+
+
+Processing UsersController#new (for 0.0.0.0 at 2010-06-12 01:42:54) [GET]
+Rendering template within layouts/application
+Rendering users/new
+Rendered layouts/_stylesheets (0.5ms)
+Rendered layouts/_header (0.5ms)
+Rendered layouts/_footer (0.2ms)
+Completed in 3ms (View: 3, DB: 0) | 200 OK [http://test.host/signup]
+  [4;36;1mUser Create (0.5ms)[0m   [0;1mINSERT INTO "users" ("name", "created_at", "updated_at", "email") VALUES('Example User', '2010-06-12 05:42:54', '2010-06-12 05:42:54', 'user@example.com')[0m
+  [4;36;1mUser Create (0.5ms)[0m   [0;1mINSERT INTO "users" ("name", "created_at", "updated_at", "email") VALUES('Example User', '2010-06-12 05:47:47', '2010-06-12 05:47:47', 'user@example.com')[0m
+  [4;36;1mUser Create (0.5ms)[0m   [0;1mINSERT INTO "users" ("name", "created_at", "updated_at", "email") VALUES('Example User', '2010-06-12 05:48:27', '2010-06-12 05:48:27', 'user@example.com')[0m
+  [4;36;1mUser Create (0.9ms)[0m   [0;1mINSERT INTO "users" ("name", "created_at", "updated_at", "email") VALUES('Example User', '2010-06-12 05:48:40', '2010-06-12 05:48:40', 'user@example.com')[0m
+  [4;36;1mUser Create (0.5ms)[0m   [0;1mINSERT INTO "users" ("name", "created_at", "updated_at", "email") VALUES('Example User', '2010-06-12 05:48:58', '2010-06-12 05:48:58', 'user@example.com')[0m
+
+
+Processing PagesController#help (for 0.0.0.0 at 2010-06-12 01:48:59) [GET]
+Rendering template within layouts/application
+Rendering pages/help
+Rendered layouts/_stylesheets (1.0ms)
+Rendered layouts/_header (6.3ms)
+Rendered layouts/_footer (0.6ms)
+Completed in 13ms (View: 11, DB: 0) | 200 OK [http://test.host/help]
+
+
+Processing PagesController#help (for 0.0.0.0 at 2010-06-12 01:48:59) [GET]
+Rendering template within layouts/application
+Rendering pages/help
+Rendered layouts/_stylesheets (0.5ms)
+Rendered layouts/_header (0.5ms)
+Rendered layouts/_footer (0.2ms)
+Completed in 3ms (View: 3, DB: 0) | 200 OK [http://test.host/help]
+
+
+Processing PagesController#about (for 0.0.0.0 at 2010-06-12 01:48:59) [GET]
+Rendering template within layouts/application
+Rendering pages/about
+Rendered layouts/_stylesheets (0.5ms)
+Rendered layouts/_header (0.5ms)
+Rendered layouts/_footer (0.2ms)
+Completed in 3ms (View: 3, DB: 0) | 200 OK [http://test.host/about]
+
+
+Processing PagesController#about (for 0.0.0.0 at 2010-06-12 01:48:59) [GET]
+Rendering template within layouts/application
+Rendering pages/about
+Rendered layouts/_stylesheets (0.5ms)
+Rendered layouts/_header (0.5ms)
+Rendered layouts/_footer (0.2ms)
+Completed in 3ms (View: 2, DB: 0) | 200 OK [http://test.host/about]
+
+
+Processing PagesController#contact (for 0.0.0.0 at 2010-06-12 01:48:59) [GET]
+Rendering template within layouts/application
+Rendering pages/contact
+Rendered layouts/_stylesheets (0.6ms)
+Rendered layouts/_header (0.5ms)
+Rendered layouts/_footer (0.2ms)
+Completed in 3ms (View: 3, DB: 0) | 200 OK [http://test.host/contact]
+
+
+Processing PagesController#contact (for 0.0.0.0 at 2010-06-12 01:48:59) [GET]
+Rendering template within layouts/application
+Rendering pages/contact
+Rendered layouts/_stylesheets (0.5ms)
+Rendered layouts/_header (0.5ms)
+Rendered layouts/_footer (0.2ms)
+Completed in 3ms (View: 3, DB: 0) | 200 OK [http://test.host/contact]
+
+
+Processing PagesController#home (for 0.0.0.0 at 2010-06-12 01:48:59) [GET]
+Rendering template within layouts/application
+Rendering pages/home
+Rendered layouts/_stylesheets (0.5ms)
+Rendered layouts/_header (0.5ms)
+Rendered layouts/_footer (0.2ms)
+Completed in 4ms (View: 4, DB: 0) | 200 OK [http://test.host/]
+
+
+Processing PagesController#home (for 0.0.0.0 at 2010-06-12 01:49:00) [GET]
+Rendering template within layouts/application
+Rendering pages/home
+Rendered layouts/_stylesheets (0.5ms)
+Rendered layouts/_header (0.5ms)
+Rendered layouts/_footer (0.2ms)
+Completed in 3ms (View: 3, DB: 0) | 200 OK [http://test.host/]
+
+
+Processing UsersController#new (for 0.0.0.0 at 2010-06-12 01:49:00) [GET]
+Rendering template within layouts/application
+Rendering users/new
+Rendered layouts/_stylesheets (0.8ms)
+Rendered layouts/_header (0.6ms)
+Rendered layouts/_footer (0.6ms)
+Completed in 6ms (View: 4, DB: 0) | 200 OK [http://test.host/signup]
+
+
+Processing UsersController#new (for 0.0.0.0 at 2010-06-12 01:49:00) [GET]
+Rendering template within layouts/application
+Rendering users/new
+Rendered layouts/_stylesheets (0.5ms)
+Rendered layouts/_header (0.5ms)
+Rendered layouts/_footer (0.2ms)
+Completed in 4ms (View: 3, DB: 0) | 200 OK [http://test.host/signup]
+  [4;36;1mUser Create (0.5ms)[0m   [0;1mINSERT INTO "users" ("name", "created_at", "updated_at", "email") VALUES('Example User', '2010-06-12 05:49:00', '2010-06-12 05:49:00', 'user@example.com')[0m
+  [4;36;1mUser Create (0.5ms)[0m   [0;1mINSERT INTO "users" ("name", "created_at", "updated_at", "email") VALUES('Example User', '2010-06-12 05:49:15', '2010-06-12 05:49:15', 'user@example.com')[0m
+  [4;36;1mUser Create (0.5ms)[0m   [0;1mINSERT INTO "users" ("name", "created_at", "updated_at", "email") VALUES('Example User', '2010-06-12 05:49:26', '2010-06-12 05:49:26', 'user@example.com')[0m
+
+
+Processing PagesController#help (for 0.0.0.0 at 2010-06-12 01:49:27) [GET]
+Rendering template within layouts/application
+Rendering pages/help
+Rendered layouts/_stylesheets (1.1ms)
+Rendered layouts/_header (6.5ms)
+Rendered layouts/_footer (1.1ms)
+Completed in 14ms (View: 12, DB: 0) | 200 OK [http://test.host/help]
+
+
+Processing PagesController#help (for 0.0.0.0 at 2010-06-12 01:49:27) [GET]
+Rendering template within layouts/application
+Rendering pages/help
+Rendered layouts/_stylesheets (0.5ms)
+Rendered layouts/_header (0.5ms)
+Rendered layouts/_footer (0.2ms)
+Completed in 3ms (View: 3, DB: 0) | 200 OK [http://test.host/help]
+
+
+Processing PagesController#about (for 0.0.0.0 at 2010-06-12 01:49:27) [GET]
+Rendering template within layouts/application
+Rendering pages/about
+Rendered layouts/_stylesheets (0.5ms)
+Rendered layouts/_header (0.5ms)
+Rendered layouts/_footer (0.2ms)
+Completed in 3ms (View: 3, DB: 0) | 200 OK [http://test.host/about]
+
+
+Processing PagesController#about (for 0.0.0.0 at 2010-06-12 01:49:27) [GET]
+Rendering template within layouts/application
+Rendering pages/about
+Rendered layouts/_stylesheets (0.5ms)
+Rendered layouts/_header (0.5ms)
+Rendered layouts/_footer (0.2ms)
+Completed in 3ms (View: 2, DB: 0) | 200 OK [http://test.host/about]
+
+
+Processing PagesController#contact (for 0.0.0.0 at 2010-06-12 01:49:28) [GET]
+Rendering template within layouts/application
+Rendering pages/contact
+Rendered layouts/_stylesheets (0.6ms)
+Rendered layouts/_header (0.5ms)
+Rendered layouts/_footer (0.2ms)
+Completed in 3ms (View: 3, DB: 0) | 200 OK [http://test.host/contact]
+
+
+Processing PagesController#contact (for 0.0.0.0 at 2010-06-12 01:49:28) [GET]
+Rendering template within layouts/application
+Rendering pages/contact
+Rendered layouts/_stylesheets (0.5ms)
+Rendered layouts/_header (0.5ms)
+Rendered layouts/_footer (0.2ms)
+Completed in 3ms (View: 2, DB: 0) | 200 OK [http://test.host/contact]
+
+
+Processing PagesController#home (for 0.0.0.0 at 2010-06-12 01:49:28) [GET]
+Rendering template within layouts/application
+Rendering pages/home
+Rendered layouts/_stylesheets (0.5ms)
+Rendered layouts/_header (0.4ms)
+Rendered layouts/_footer (0.2ms)
+Completed in 3ms (View: 3, DB: 0) | 200 OK [http://test.host/]
+
+
+Processing PagesController#home (for 0.0.0.0 at 2010-06-12 01:49:28) [GET]
+Rendering template within layouts/application
+Rendering pages/home
+Rendered layouts/_stylesheets (0.5ms)
+Rendered layouts/_header (0.5ms)
+Rendered layouts/_footer (0.2ms)
+Completed in 6ms (View: 5, DB: 0) | 200 OK [http://test.host/]
+
+
+Processing UsersController#new (for 0.0.0.0 at 2010-06-12 01:49:28) [GET]
+Rendering template within layouts/application
+Rendering users/new
+Rendered layouts/_stylesheets (0.5ms)
+Rendered layouts/_header (0.5ms)
+Rendered layouts/_footer (0.2ms)
+Completed in 4ms (View: 3, DB: 0) | 200 OK [http://test.host/signup]
+
+
+Processing UsersController#new (for 0.0.0.0 at 2010-06-12 01:49:28) [GET]
+Rendering template within layouts/application
+Rendering users/new
+Rendered layouts/_stylesheets (0.5ms)
+Rendered layouts/_header (0.6ms)
+Rendered layouts/_footer (0.2ms)
+Completed in 4ms (View: 3, DB: 0) | 200 OK [http://test.host/signup]
+  [4;36;1mUser Create (0.5ms)[0m   [0;1mINSERT INTO "users" ("name", "created_at", "updated_at", "email") VALUES('Example User', '2010-06-12 05:49:28', '2010-06-12 05:49:28', 'user@example.com')[0m
+  [4;36;1mUser Create (0.5ms)[0m   [0;1mINSERT INTO "users" ("name", "created_at", "updated_at", "email") VALUES('Example User', '2010-06-12 06:00:23', '2010-06-12 06:00:23', 'user@example.com')[0m
+
+
+Processing PagesController#help (for 0.0.0.0 at 2010-06-12 02:02:58) [GET]
+Rendering template within layouts/application
+Rendering pages/help
+Rendered layouts/_stylesheets (1.0ms)
+Rendered layouts/_header (6.3ms)
+Rendered layouts/_footer (0.6ms)
+Completed in 13ms (View: 11, DB: 0) | 200 OK [http://test.host/help]
+
+
+Processing PagesController#help (for 0.0.0.0 at 2010-06-12 02:02:58) [GET]
+Rendering template within layouts/application
+Rendering pages/help
+Rendered layouts/_stylesheets (0.5ms)
+Rendered layouts/_header (0.5ms)
+Rendered layouts/_footer (0.2ms)
+Completed in 3ms (View: 3, DB: 0) | 200 OK [http://test.host/help]
+
+
+Processing PagesController#about (for 0.0.0.0 at 2010-06-12 02:02:58) [GET]
+Rendering template within layouts/application
+Rendering pages/about
+Rendered layouts/_stylesheets (0.5ms)
+Rendered layouts/_header (0.5ms)
+Rendered layouts/_footer (0.2ms)
+Completed in 3ms (View: 3, DB: 0) | 200 OK [http://test.host/about]
+
+
+Processing PagesController#about (for 0.0.0.0 at 2010-06-12 02:02:58) [GET]
+Rendering template within layouts/application
+Rendering pages/about
+Rendered layouts/_stylesheets (0.5ms)
+Rendered layouts/_header (0.5ms)
+Rendered layouts/_footer (0.2ms)
+Completed in 3ms (View: 3, DB: 0) | 200 OK [http://test.host/about]
+
+
+Processing PagesController#contact (for 0.0.0.0 at 2010-06-12 02:02:58) [GET]
+Rendering template within layouts/application
+Rendering pages/contact
+Rendered layouts/_stylesheets (0.5ms)
+Rendered layouts/_header (0.5ms)
+Rendered layouts/_footer (0.2ms)
+Completed in 3ms (View: 3, DB: 0) | 200 OK [http://test.host/contact]
+
+
+Processing PagesController#contact (for 0.0.0.0 at 2010-06-12 02:02:58) [GET]
+Rendering template within layouts/application
+Rendering pages/contact
+Rendered layouts/_stylesheets (0.4ms)
+Rendered layouts/_header (0.5ms)
+Rendered layouts/_footer (0.2ms)
+Completed in 3ms (View: 2, DB: 0) | 200 OK [http://test.host/contact]
+
+
+Processing PagesController#home (for 0.0.0.0 at 2010-06-12 02:02:58) [GET]
+Rendering template within layouts/application
+Rendering pages/home
+Rendered layouts/_stylesheets (2.3ms)
+Rendered layouts/_header (0.5ms)
+Rendered layouts/_footer (0.2ms)
+Completed in 5ms (View: 5, DB: 0) | 200 OK [http://test.host/]
+
+
+Processing PagesController#home (for 0.0.0.0 at 2010-06-12 02:02:58) [GET]
+Rendering template within layouts/application
+Rendering pages/home
+Rendered layouts/_stylesheets (0.4ms)
+Rendered layouts/_header (0.5ms)
+Rendered layouts/_footer (0.2ms)
+Completed in 3ms (View: 3, DB: 0) | 200 OK [http://test.host/]
+
+
+Processing UsersController#new (for 0.0.0.0 at 2010-06-12 02:02:58) [GET]
+Rendering template within layouts/application
+Rendering users/new
+Rendered layouts/_stylesheets (1.0ms)
+Rendered layouts/_header (0.5ms)
+Rendered layouts/_footer (0.2ms)
+Completed in 5ms (View: 3, DB: 0) | 200 OK [http://test.host/signup]
+
+
+Processing UsersController#new (for 0.0.0.0 at 2010-06-12 02:02:58) [GET]
+Rendering template within layouts/application
+Rendering users/new
+Rendered layouts/_stylesheets (0.6ms)
+Rendered layouts/_header (0.6ms)
+Rendered layouts/_footer (0.3ms)
+Completed in 4ms (View: 4, DB: 0) | 200 OK [http://test.host/signup]
+  [4;36;1mUser Create (0.6ms)[0m   [0;1mINSERT INTO "users" ("name", "created_at", "updated_at", "email") VALUES('Example User', '2010-06-12 06:02:58', '2010-06-12 06:02:58', 'user@example.com')[0m
+  [4;36;1mUser Create (0.5ms)[0m   [0;1mINSERT INTO "users" ("name", "created_at", "updated_at", "email") VALUES('Example User', '2010-06-12 06:03:32', '2010-06-12 06:03:32', 'user@example.com')[0m
+
+
+Processing PagesController#help (for 0.0.0.0 at 2010-06-12 02:03:33) [GET]
+Rendering template within layouts/application
+Rendering pages/help
+Rendered layouts/_stylesheets (1.0ms)
+Rendered layouts/_header (6.2ms)
+Rendered layouts/_footer (0.7ms)
+Completed in 12ms (View: 11, DB: 0) | 200 OK [http://test.host/help]
+
+
+Processing PagesController#help (for 0.0.0.0 at 2010-06-12 02:03:33) [GET]
+Rendering template within layouts/application
+Rendering pages/help
+Rendered layouts/_stylesheets (0.5ms)
+Rendered layouts/_header (0.5ms)
+Rendered layouts/_footer (0.2ms)
+Completed in 3ms (View: 3, DB: 0) | 200 OK [http://test.host/help]
+
+
+Processing PagesController#about (for 0.0.0.0 at 2010-06-12 02:03:33) [GET]
+Rendering template within layouts/application
+Rendering pages/about
+Rendered layouts/_stylesheets (0.5ms)
+Rendered layouts/_header (0.5ms)
+Rendered layouts/_footer (0.2ms)
+Completed in 3ms (View: 3, DB: 0) | 200 OK [http://test.host/about]
+
+
+Processing PagesController#about (for 0.0.0.0 at 2010-06-12 02:03:33) [GET]
+Rendering template within layouts/application
+Rendering pages/about
+Rendered layouts/_stylesheets (0.5ms)
+Rendered layouts/_header (0.5ms)
+Rendered layouts/_footer (0.2ms)
+Completed in 3ms (View: 2, DB: 0) | 200 OK [http://test.host/about]
+
+
+Processing PagesController#contact (for 0.0.0.0 at 2010-06-12 02:03:33) [GET]
+Rendering template within layouts/application
+Rendering pages/contact
+Rendered layouts/_stylesheets (0.5ms)
+Rendered layouts/_header (0.5ms)
+Rendered layouts/_footer (0.2ms)
+Completed in 3ms (View: 3, DB: 0) | 200 OK [http://test.host/contact]
+
+
+Processing PagesController#contact (for 0.0.0.0 at 2010-06-12 02:03:33) [GET]
+Rendering template within layouts/application
+Rendering pages/contact
+Rendered layouts/_stylesheets (0.6ms)
+Rendered layouts/_header (0.5ms)
+Rendered layouts/_footer (0.2ms)
+Completed in 3ms (View: 3, DB: 0) | 200 OK [http://test.host/contact]
+
+
+Processing PagesController#home (for 0.0.0.0 at 2010-06-12 02:03:33) [GET]
+Rendering template within layouts/application
+Rendering pages/home
+Rendered layouts/_stylesheets (0.5ms)
+Rendered layouts/_header (0.4ms)
+Rendered layouts/_footer (0.2ms)
+Completed in 4ms (View: 3, DB: 0) | 200 OK [http://test.host/]
+
+
+Processing PagesController#home (for 0.0.0.0 at 2010-06-12 02:03:33) [GET]
+Rendering template within layouts/application
+Rendering pages/home
+Rendered layouts/_stylesheets (0.4ms)
+Rendered layouts/_header (0.5ms)
+Rendered layouts/_footer (0.2ms)
+Completed in 3ms (View: 3, DB: 0) | 200 OK [http://test.host/]
+
+
+Processing UsersController#new (for 0.0.0.0 at 2010-06-12 02:03:33) [GET]
+Rendering template within layouts/application
+Rendering users/new
+Rendered layouts/_stylesheets (0.5ms)
+Rendered layouts/_header (0.6ms)
+Rendered layouts/_footer (0.2ms)
+Completed in 5ms (View: 3, DB: 0) | 200 OK [http://test.host/signup]
+
+
+Processing UsersController#new (for 0.0.0.0 at 2010-06-12 02:03:33) [GET]
+Rendering template within layouts/application
+Rendering users/new
+Rendered layouts/_stylesheets (0.7ms)
+Rendered layouts/_header (0.5ms)
+Rendered layouts/_footer (0.2ms)
+Completed in 3ms (View: 3, DB: 0) | 200 OK [http://test.host/signup]
+  [4;36;1mUser Create (0.7ms)[0m   [0;1mINSERT INTO "users" ("name", "created_at", "updated_at", "email") VALUES('Example User', '2010-06-12 06:03:33', '2010-06-12 06:03:33', 'user@example.com')[0m
+  [4;36;1mUser Create (0.5ms)[0m   [0;1mINSERT INTO "users" ("name", "created_at", "updated_at", "email") VALUES('Example User', '2010-06-12 06:32:11', '2010-06-12 06:32:11', 'user@example.com')[0m
+  [4;36;1mUser Create (0.5ms)[0m   [0;1mINSERT INTO "users" ("name", "created_at", "updated_at", "email") VALUES('Example User', '2010-06-12 06:42:50', '2010-06-12 06:42:50', 'user@example.com')[0m
+
+
+Processing PagesController#help (for 0.0.0.0 at 2010-06-12 02:42:52) [GET]
+Rendering template within layouts/application
+Rendering pages/help
+Rendered layouts/_stylesheets (1.0ms)
+Rendered layouts/_header (6.5ms)
+Rendered layouts/_footer (0.7ms)
+Completed in 13ms (View: 11, DB: 0) | 200 OK [http://test.host/help]
+
+
+Processing PagesController#help (for 0.0.0.0 at 2010-06-12 02:42:52) [GET]
+Rendering template within layouts/application
+Rendering pages/help
+Rendered layouts/_stylesheets (0.5ms)
+Rendered layouts/_header (0.5ms)
+Rendered layouts/_footer (0.2ms)
+Completed in 3ms (View: 2, DB: 0) | 200 OK [http://test.host/help]
+
+
+Processing PagesController#about (for 0.0.0.0 at 2010-06-12 02:42:52) [GET]
+Rendering template within layouts/application
+Rendering pages/about
+Rendered layouts/_stylesheets (0.5ms)
+Rendered layouts/_header (0.5ms)
+Rendered layouts/_footer (0.2ms)
+Completed in 3ms (View: 3, DB: 0) | 200 OK [http://test.host/about]
+
+
+Processing PagesController#about (for 0.0.0.0 at 2010-06-12 02:42:52) [GET]
+Rendering template within layouts/application
+Rendering pages/about
+Rendered layouts/_stylesheets (0.5ms)
+Rendered layouts/_header (0.5ms)
+Rendered layouts/_footer (0.2ms)
+Completed in 3ms (View: 2, DB: 0) | 200 OK [http://test.host/about]
+
+
+Processing PagesController#contact (for 0.0.0.0 at 2010-06-12 02:42:52) [GET]
+Rendering template within layouts/application
+Rendering pages/contact
+Rendered layouts/_stylesheets (0.5ms)
+Rendered layouts/_header (0.5ms)
+Rendered layouts/_footer (0.2ms)
+Completed in 3ms (View: 3, DB: 0) | 200 OK [http://test.host/contact]
+
+
+Processing PagesController#contact (for 0.0.0.0 at 2010-06-12 02:42:52) [GET]
+Rendering template within layouts/application
+Rendering pages/contact
+Rendered layouts/_stylesheets (0.4ms)
+Rendered layouts/_header (0.5ms)
+Rendered layouts/_footer (0.2ms)
+Completed in 3ms (View: 2, DB: 0) | 200 OK [http://test.host/contact]
+
+
+Processing PagesController#home (for 0.0.0.0 at 2010-06-12 02:42:52) [GET]
+Rendering template within layouts/application
+Rendering pages/home
+Rendered layouts/_stylesheets (0.5ms)
+Rendered layouts/_header (0.5ms)
+Rendered layouts/_footer (0.3ms)
+Completed in 3ms (View: 3, DB: 0) | 200 OK [http://test.host/]
+
+
+Processing PagesController#home (for 0.0.0.0 at 2010-06-12 02:42:52) [GET]
+Rendering template within layouts/application
+Rendering pages/home
+Rendered layouts/_stylesheets (0.4ms)
+Rendered layouts/_header (0.5ms)
+Rendered layouts/_footer (0.2ms)
+Completed in 3ms (View: 3, DB: 0) | 200 OK [http://test.host/]
+
+
+Processing UsersController#new (for 0.0.0.0 at 2010-06-12 02:42:52) [GET]
+Rendering template within layouts/application
+Rendering users/new
+Rendered layouts/_stylesheets (0.5ms)
+Rendered layouts/_header (0.5ms)
+Rendered layouts/_footer (0.2ms)
+Completed in 12ms (View: 11, DB: 0) | 200 OK [http://test.host/signup]
+
+
+Processing UsersController#new (for 0.0.0.0 at 2010-06-12 02:42:52) [GET]
+Rendering template within layouts/application
+Rendering users/new
+Rendered layouts/_stylesheets (0.5ms)
+Rendered layouts/_header (0.5ms)
+Rendered layouts/_footer (0.2ms)
+Completed in 3ms (View: 3, DB: 0) | 200 OK [http://test.host/signup]
+  [4;36;1mUser Create (0.5ms)[0m   [0;1mINSERT INTO "users" ("name", "created_at", "updated_at", "email") VALUES('Example User', '2010-06-12 06:42:52', '2010-06-12 06:42:52', 'user@example.com')[0m
+  [4;36;1mUser Create (0.5ms)[0m   [0;1mINSERT INTO "users" ("name", "created_at", "updated_at", "email") VALUES('Example User', '2010-06-12 06:45:44', '2010-06-12 06:45:44', 'user@example.com')[0m
+  [4;35;1mUser Create (0.4ms)[0m   [0mINSERT INTO "users" ("name", "created_at", "updated_at", "email") VALUES('Example User', '2010-06-12 06:45:44', '2010-06-12 06:45:44', 'user@example.com')[0m
+  [4;36;1mUser Load (0.2ms)[0m   [0;1mSELECT "users".id FROM "users" WHERE ("users"."email" = 'user@example.com') LIMIT 1[0m
+  [4;35;1mUser Create (0.4ms)[0m   [0mINSERT INTO "users" ("name", "created_at", "updated_at", "email") VALUES('Example User', '2010-06-12 06:46:28', '2010-06-12 06:46:28', 'user@example.com')[0m
+  [4;36;1mUser Load (0.2ms)[0m   [0;1mSELECT "users".id FROM "users" WHERE ("users"."email" = 'user@example.com') LIMIT 1[0m
+  [4;35;1mUser Load (0.1ms)[0m   [0mSELECT "users".id FROM "users" WHERE ("users"."email" = 'user@example.com') LIMIT 1[0m
+  [4;36;1mUser Load (0.1ms)[0m   [0;1mSELECT "users".id FROM "users" WHERE ("users"."email" = '') LIMIT 1[0m
+  [4;35;1mUser Load (0.2ms)[0m   [0mSELECT "users".id FROM "users" WHERE ("users"."email" = 'user@foo.com') LIMIT 1[0m
+  [4;36;1mUser Load (0.1ms)[0m   [0;1mSELECT "users".id FROM "users" WHERE ("users"."email" = 'user_2@foo.bar.org') LIMIT 1[0m
+  [4;35;1mUser Load (0.1ms)[0m   [0mSELECT "users".id FROM "users" WHERE ("users"."email" = 'user.3@foo.jp') LIMIT 1[0m
+  [4;36;1mUser Load (0.2ms)[0m   [0;1mSELECT "users".id FROM "users" WHERE ("users"."email" = 'user@foo,com') LIMIT 1[0m
+  [4;35;1mUser Load (0.1ms)[0m   [0mSELECT "users".id FROM "users" WHERE ("users"."email" = 'user_2foo.bar.org') LIMIT 1[0m
+  [4;36;1mUser Load (0.1ms)[0m   [0;1mSELECT "users".id FROM "users" WHERE ("users"."email" = 'user.3@foo.') LIMIT 1[0m
+  [4;35;1mUser Load (0.1ms)[0m   [0mSELECT "users".id FROM "users" WHERE ("users"."email" = 'user@example.com') LIMIT 1[0m
+  [4;36;1mUser Create (0.3ms)[0m   [0;1mINSERT INTO "users" ("name", "created_at", "updated_at", "email") VALUES('Example User', '2010-06-12 06:46:28', '2010-06-12 06:46:28', 'user@example.com')[0m
+  [4;35;1mUser Load (0.2ms)[0m   [0mSELECT "users".id FROM "users" WHERE ("users"."email" = 'user@example.com') LIMIT 1[0m
+
+
+Processing PagesController#help (for 0.0.0.0 at 2010-06-12 02:46:30) [GET]
+Rendering template within layouts/application
+Rendering pages/help
+Rendered layouts/_stylesheets (1.0ms)
+Rendered layouts/_header (7.4ms)
+Rendered layouts/_footer (0.6ms)
+Completed in 14ms (View: 12, DB: 0) | 200 OK [http://test.host/help]
+
+
+Processing PagesController#help (for 0.0.0.0 at 2010-06-12 02:46:30) [GET]
+Rendering template within layouts/application
+Rendering pages/help
+Rendered layouts/_stylesheets (0.5ms)
+Rendered layouts/_header (0.5ms)
+Rendered layouts/_footer (0.2ms)
+Completed in 3ms (View: 3, DB: 0) | 200 OK [http://test.host/help]
+
+
+Processing PagesController#about (for 0.0.0.0 at 2010-06-12 02:46:30) [GET]
+Rendering template within layouts/application
+Rendering pages/about
+Rendered layouts/_stylesheets (0.5ms)
+Rendered layouts/_header (0.7ms)
+Rendered layouts/_footer (0.2ms)
+Completed in 4ms (View: 3, DB: 0) | 200 OK [http://test.host/about]
+
+
+Processing PagesController#about (for 0.0.0.0 at 2010-06-12 02:46:30) [GET]
+Rendering template within layouts/application
+Rendering pages/about
+Rendered layouts/_stylesheets (0.5ms)
+Rendered layouts/_header (0.5ms)
+Rendered layouts/_footer (0.2ms)
+Completed in 3ms (View: 3, DB: 0) | 200 OK [http://test.host/about]
+
+
+Processing PagesController#contact (for 0.0.0.0 at 2010-06-12 02:46:30) [GET]
+Rendering template within layouts/application
+Rendering pages/contact
+Rendered layouts/_stylesheets (0.5ms)
+Rendered layouts/_header (0.5ms)
+Rendered layouts/_footer (0.2ms)
+Completed in 3ms (View: 3, DB: 0) | 200 OK [http://test.host/contact]
+
+
+Processing PagesController#contact (for 0.0.0.0 at 2010-06-12 02:46:30) [GET]
+Rendering template within layouts/application
+Rendering pages/contact
+Rendered layouts/_stylesheets (0.4ms)
+Rendered layouts/_header (0.4ms)
+Rendered layouts/_footer (0.2ms)
+Completed in 3ms (View: 2, DB: 0) | 200 OK [http://test.host/contact]
+
+
+Processing PagesController#home (for 0.0.0.0 at 2010-06-12 02:46:30) [GET]
+Rendering template within layouts/application
+Rendering pages/home
+Rendered layouts/_stylesheets (0.5ms)
+Rendered layouts/_header (0.4ms)
+Rendered layouts/_footer (0.2ms)
+Completed in 3ms (View: 3, DB: 0) | 200 OK [http://test.host/]
+
+
+Processing PagesController#home (for 0.0.0.0 at 2010-06-12 02:46:30) [GET]
+Rendering template within layouts/application
+Rendering pages/home
+Rendered layouts/_stylesheets (1.3ms)
+Rendered layouts/_header (0.5ms)
+Rendered layouts/_footer (0.2ms)
+Completed in 5ms (View: 5, DB: 0) | 200 OK [http://test.host/]
+
+
+Processing UsersController#new (for 0.0.0.0 at 2010-06-12 02:46:30) [GET]
+Rendering template within layouts/application
+Rendering users/new
+Rendered layouts/_stylesheets (0.5ms)
+Rendered layouts/_header (0.5ms)
+Rendered layouts/_footer (0.2ms)
+Completed in 5ms (View: 3, DB: 0) | 200 OK [http://test.host/signup]
+
+
+Processing UsersController#new (for 0.0.0.0 at 2010-06-12 02:46:30) [GET]
+Rendering template within layouts/application
+Rendering users/new
+Rendered layouts/_stylesheets (0.5ms)
+Rendered layouts/_header (0.5ms)
+Rendered layouts/_footer (0.2ms)
+Completed in 3ms (View: 3, DB: 0) | 200 OK [http://test.host/signup]
+  [4;36;1mUser Load (0.2ms)[0m   [0;1mSELECT "users".id FROM "users" WHERE ("users"."email" = 'user@example.com') LIMIT 1[0m
+  [4;35;1mUser Create (0.4ms)[0m   [0mINSERT INTO "users" ("name", "created_at", "updated_at", "email") VALUES('Example User', '2010-06-12 06:46:30', '2010-06-12 06:46:30', 'user@example.com')[0m
+  [4;36;1mUser Load (0.2ms)[0m   [0;1mSELECT "users".id FROM "users" WHERE ("users"."email" = 'user@example.com') LIMIT 1[0m
+  [4;35;1mUser Load (0.1ms)[0m   [0mSELECT "users".id FROM "users" WHERE ("users"."email" = 'user@example.com') LIMIT 1[0m
+  [4;36;1mUser Load (0.1ms)[0m   [0;1mSELECT "users".id FROM "users" WHERE ("users"."email" = '') LIMIT 1[0m
+  [4;35;1mUser Load (0.1ms)[0m   [0mSELECT "users".id FROM "users" WHERE ("users"."email" = 'user@foo.com') LIMIT 1[0m
+  [4;36;1mUser Load (0.1ms)[0m   [0;1mSELECT "users".id FROM "users" WHERE ("users"."email" = 'user_2@foo.bar.org') LIMIT 1[0m
+  [4;35;1mUser Load (0.1ms)[0m   [0mSELECT "users".id FROM "users" WHERE ("users"."email" = 'user.3@foo.jp') LIMIT 1[0m
+  [4;36;1mUser Load (0.2ms)[0m   [0;1mSELECT "users".id FROM "users" WHERE ("users"."email" = 'user@foo,com') LIMIT 1[0m
+  [4;35;1mUser Load (0.1ms)[0m   [0mSELECT "users".id FROM "users" WHERE ("users"."email" = 'user_2foo.bar.org') LIMIT 1[0m
+  [4;36;1mUser Load (0.1ms)[0m   [0;1mSELECT "users".id FROM "users" WHERE ("users"."email" = 'user.3@foo.') LIMIT 1[0m
+  [4;35;1mUser Load (0.2ms)[0m   [0mSELECT "users".id FROM "users" WHERE ("users"."email" = 'user@example.com') LIMIT 1[0m
+  [4;36;1mUser Create (0.4ms)[0m   [0;1mINSERT INTO "users" ("name", "created_at", "updated_at", "email") VALUES('Example User', '2010-06-12 06:46:30', '2010-06-12 06:46:30', 'user@example.com')[0m
+  [4;35;1mUser Load (0.2ms)[0m   [0mSELECT "users".id FROM "users" WHERE ("users"."email" = 'user@example.com') LIMIT 1[0m
+  [4;36;1mUser Load (0.2ms)[0m   [0;1mSELECT "users".id FROM "users" WHERE ("users"."email" = 'user@example.com') LIMIT 1[0m
+  [4;35;1mUser Create (0.5ms)[0m   [0mINSERT INTO "users" ("name", "created_at", "updated_at", "email") VALUES('Example User', '2010-06-12 06:50:39', '2010-06-12 06:50:39', 'user@example.com')[0m
+  [4;36;1mUser Load (0.2ms)[0m   [0;1mSELECT "users".id FROM "users" WHERE ("users"."email" = 'user@example.com') LIMIT 1[0m
+  [4;35;1mUser Load (0.1ms)[0m   [0mSELECT "users".id FROM "users" WHERE ("users"."email" = 'user@example.com') LIMIT 1[0m
+  [4;36;1mUser Load (0.2ms)[0m   [0;1mSELECT "users".id FROM "users" WHERE ("users"."email" = '') LIMIT 1[0m
+  [4;35;1mUser Load (0.3ms)[0m   [0mSELECT "users".id FROM "users" WHERE ("users"."email" = 'user@foo.com') LIMIT 1[0m
+  [4;36;1mUser Load (0.1ms)[0m   [0;1mSELECT "users".id FROM "users" WHERE ("users"."email" = 'user_2@foo.bar.org') LIMIT 1[0m
+  [4;35;1mUser Load (0.1ms)[0m   [0mSELECT "users".id FROM "users" WHERE ("users"."email" = 'user.3@foo.jp') LIMIT 1[0m
+  [4;36;1mUser Load (0.1ms)[0m   [0;1mSELECT "users".id FROM "users" WHERE ("users"."email" = 'user@foo,com') LIMIT 1[0m
+  [4;35;1mUser Load (0.1ms)[0m   [0mSELECT "users".id FROM "users" WHERE ("users"."email" = 'user_2foo.bar.org') LIMIT 1[0m
+  [4;36;1mUser Load (0.1ms)[0m   [0;1mSELECT "users".id FROM "users" WHERE ("users"."email" = 'user.3@foo.') LIMIT 1[0m
+  [4;35;1mUser Load (0.2ms)[0m   [0mSELECT "users".id FROM "users" WHERE ("users"."email" = 'user@example.com') LIMIT 1[0m
+  [4;36;1mUser Create (0.3ms)[0m   [0;1mINSERT INTO "users" ("name", "created_at", "updated_at", "email") VALUES('Example User', '2010-06-12 06:50:39', '2010-06-12 06:50:39', 'user@example.com')[0m
+  [4;35;1mUser Load (0.2ms)[0m   [0mSELECT "users".id FROM "users" WHERE ("users"."email" = 'user@example.com') LIMIT 1[0m
+  [4;36;1mUser Load (0.2ms)[0m   [0;1mSELECT "users".id FROM "users" WHERE (LOWER("users"."email") = 'user@example.com') LIMIT 1[0m
+  [4;35;1mUser Create (0.4ms)[0m   [0mINSERT INTO "users" ("name", "created_at", "updated_at", "email") VALUES('Example User', '2010-06-12 06:53:31', '2010-06-12 06:53:31', 'user@example.com')[0m
+  [4;36;1mUser Load (0.2ms)[0m   [0;1mSELECT "users".id FROM "users" WHERE (LOWER("users"."email") = 'user@example.com') LIMIT 1[0m
+  [4;35;1mUser Load (0.1ms)[0m   [0mSELECT "users".id FROM "users" WHERE (LOWER("users"."email") = 'user@example.com') LIMIT 1[0m
+  [4;36;1mUser Load (0.1ms)[0m   [0;1mSELECT "users".id FROM "users" WHERE (LOWER("users"."email") = '') LIMIT 1[0m
+  [4;35;1mUser Load (0.3ms)[0m   [0mSELECT "users".id FROM "users" WHERE (LOWER("users"."email") = 'user@foo.com') LIMIT 1[0m
+  [4;36;1mUser Load (0.1ms)[0m   [0;1mSELECT "users".id FROM "users" WHERE (LOWER("users"."email") = 'user_2@foo.bar.org') LIMIT 1[0m
+  [4;35;1mUser Load (0.1ms)[0m   [0mSELECT "users".id FROM "users" WHERE (LOWER("users"."email") = 'user.3@foo.jp') LIMIT 1[0m
+  [4;36;1mUser Load (0.2ms)[0m   [0;1mSELECT "users".id FROM "users" WHERE (LOWER("users"."email") = 'user@foo,com') LIMIT 1[0m
+  [4;35;1mUser Load (0.1ms)[0m   [0mSELECT "users".id FROM "users" WHERE (LOWER("users"."email") = 'user_2foo.bar.org') LIMIT 1[0m
+  [4;36;1mUser Load (0.1ms)[0m   [0;1mSELECT "users".id FROM "users" WHERE (LOWER("users"."email") = 'user.3@foo.') LIMIT 1[0m
+  [4;35;1mUser Load (0.2ms)[0m   [0mSELECT "users".id FROM "users" WHERE (LOWER("users"."email") = 'user@example.com') LIMIT 1[0m
+  [4;36;1mUser Create (0.4ms)[0m   [0;1mINSERT INTO "users" ("name", "created_at", "updated_at", "email") VALUES('Example User', '2010-06-12 06:53:31', '2010-06-12 06:53:31', 'user@example.com')[0m
+  [4;35;1mUser Load (0.3ms)[0m   [0mSELECT "users".id FROM "users" WHERE (LOWER("users"."email") = 'user@example.com') LIMIT 1[0m
+  [4;36;1mUser Load (0.2ms)[0m   [0;1mSELECT "users".id FROM "users" WHERE (LOWER("users"."email") = 'user@example.com') LIMIT 1[0m
+  [4;35;1mUser Create (0.4ms)[0m   [0mINSERT INTO "users" ("name", "created_at", "updated_at", "email") VALUES('Example User', '2010-06-12 06:54:04', '2010-06-12 06:54:04', 'user@example.com')[0m
+  [4;36;1mUser Load (0.2ms)[0m   [0;1mSELECT "users".id FROM "users" WHERE (LOWER("users"."email") = 'user@example.com') LIMIT 1[0m
+  [4;35;1mUser Load (0.1ms)[0m   [0mSELECT "users".id FROM "users" WHERE (LOWER("users"."email") = 'user@example.com') LIMIT 1[0m
+  [4;36;1mUser Load (0.1ms)[0m   [0;1mSELECT "users".id FROM "users" WHERE (LOWER("users"."email") = '') LIMIT 1[0m
+  [4;35;1mUser Load (0.2ms)[0m   [0mSELECT "users".id FROM "users" WHERE (LOWER("users"."email") = 'user@foo.com') LIMIT 1[0m
+  [4;36;1mUser Load (0.1ms)[0m   [0;1mSELECT "users".id FROM "users" WHERE (LOWER("users"."email") = 'user_2@foo.bar.org') LIMIT 1[0m
+  [4;35;1mUser Load (0.1ms)[0m   [0mSELECT "users".id FROM "users" WHERE (LOWER("users"."email") = 'user.3@foo.jp') LIMIT 1[0m
+  [4;36;1mUser Load (0.2ms)[0m   [0;1mSELECT "users".id FROM "users" WHERE (LOWER("users"."email") = 'user@foo,com') LIMIT 1[0m
+  [4;35;1mUser Load (0.1ms)[0m   [0mSELECT "users".id FROM "users" WHERE (LOWER("users"."email") = 'user_2foo.bar.org') LIMIT 1[0m
+  [4;36;1mUser Load (0.1ms)[0m   [0;1mSELECT "users".id FROM "users" WHERE (LOWER("users"."email") = 'user.3@foo.') LIMIT 1[0m
+  [4;35;1mUser Load (0.2ms)[0m   [0mSELECT "users".id FROM "users" WHERE (LOWER("users"."email") = 'user@example.com') LIMIT 1[0m
+  [4;36;1mUser Create (0.4ms)[0m   [0;1mINSERT INTO "users" ("name", "created_at", "updated_at", "email") VALUES('Example User', '2010-06-12 06:54:04', '2010-06-12 06:54:04', 'user@example.com')[0m
+  [4;35;1mUser Load (0.2ms)[0m   [0mSELECT "users".id FROM "users" WHERE (LOWER("users"."email") = 'user@example.com') LIMIT 1[0m
+  [4;36;1mUser Load (0.2ms)[0m   [0;1mSELECT "users".id FROM "users" WHERE (LOWER("users"."email") = 'user@example.com') LIMIT 1[0m
+  [4;35;1mUser Create (0.4ms)[0m   [0mINSERT INTO "users" ("name", "created_at", "updated_at", "email") VALUES('Example User', '2010-06-12 06:54:56', '2010-06-12 06:54:56', 'user@example.com')[0m
+  [4;36;1mUser Load (0.2ms)[0m   [0;1mSELECT "users".id FROM "users" WHERE (LOWER("users"."email") = 'user@example.com') LIMIT 1[0m
+  [4;35;1mUser Load (0.1ms)[0m   [0mSELECT "users".id FROM "users" WHERE (LOWER("users"."email") = 'user@example.com') LIMIT 1[0m
+  [4;36;1mUser Load (0.1ms)[0m   [0;1mSELECT "users".id FROM "users" WHERE (LOWER("users"."email") = '') LIMIT 1[0m
+  [4;35;1mUser Load (0.1ms)[0m   [0mSELECT "users".id FROM "users" WHERE (LOWER("users"."email") = 'user@foo.com') LIMIT 1[0m
+  [4;36;1mUser Load (0.1ms)[0m   [0;1mSELECT "users".id FROM "users" WHERE (LOWER("users"."email") = 'user_2@foo.bar.org') LIMIT 1[0m
+  [4;35;1mUser Load (0.1ms)[0m   [0mSELECT "users".id FROM "users" WHERE (LOWER("users"."email") = 'user.3@foo.jp') LIMIT 1[0m
+  [4;36;1mUser Load (0.2ms)[0m   [0;1mSELECT "users".id FROM "users" WHERE (LOWER("users"."email") = 'user@foo,com') LIMIT 1[0m
+  [4;35;1mUser Load (0.1ms)[0m   [0mSELECT "users".id FROM "users" WHERE (LOWER("users"."email") = 'user_2foo.bar.org') LIMIT 1[0m
+  [4;36;1mUser Load (0.1ms)[0m   [0;1mSELECT "users".id FROM "users" WHERE (LOWER("users"."email") = 'user.3@foo.') LIMIT 1[0m
+  [4;35;1mUser Load (0.2ms)[0m   [0mSELECT "users".id FROM "users" WHERE (LOWER("users"."email") = 'user@example.com') LIMIT 1[0m
+  [4;36;1mUser Create (0.3ms)[0m   [0;1mINSERT INTO "users" ("name", "created_at", "updated_at", "email") VALUES('Example User', '2010-06-12 06:54:56', '2010-06-12 06:54:56', 'user@example.com')[0m
+  [4;35;1mUser Load (0.2ms)[0m   [0mSELECT "users".id FROM "users" WHERE (LOWER("users"."email") = 'user@example.com') LIMIT 1[0m
+  [4;36;1mUser Load (0.2ms)[0m   [0;1mSELECT "users".id FROM "users" WHERE (LOWER("users"."email") = 'user@example.com') LIMIT 1[0m
+  [4;35;1mUser Create (0.4ms)[0m   [0mINSERT INTO "users" ("name", "created_at", "updated_at", "email") VALUES('Example User', '2010-06-12 06:55:50', '2010-06-12 06:55:50', 'user@example.com')[0m
+  [4;36;1mUser Load (0.2ms)[0m   [0;1mSELECT "users".id FROM "users" WHERE (LOWER("users"."email") = 'user@example.com') LIMIT 1[0m
+  [4;35;1mUser Load (0.1ms)[0m   [0mSELECT "users".id FROM "users" WHERE (LOWER("users"."email") = 'user@example.com') LIMIT 1[0m
+  [4;36;1mUser Load (0.1ms)[0m   [0;1mSELECT "users".id FROM "users" WHERE (LOWER("users"."email") = '') LIMIT 1[0m
+  [4;35;1mUser Load (0.2ms)[0m   [0mSELECT "users".id FROM "users" WHERE (LOWER("users"."email") = 'user@foo.com') LIMIT 1[0m
+  [4;36;1mUser Load (0.1ms)[0m   [0;1mSELECT "users".id FROM "users" WHERE (LOWER("users"."email") = 'user_2@foo.bar.org') LIMIT 1[0m
+  [4;35;1mUser Load (0.1ms)[0m   [0mSELECT "users".id FROM "users" WHERE (LOWER("users"."email") = 'user.3@foo.jp') LIMIT 1[0m
+  [4;36;1mUser Load (0.2ms)[0m   [0;1mSELECT "users".id FROM "users" WHERE (LOWER("users"."email") = 'user@foo,com') LIMIT 1[0m
+  [4;35;1mUser Load (0.2ms)[0m   [0mSELECT "users".id FROM "users" WHERE (LOWER("users"."email") = 'user_2foo.bar.org') LIMIT 1[0m
+  [4;36;1mUser Load (0.1ms)[0m   [0;1mSELECT "users".id FROM "users" WHERE (LOWER("users"."email") = 'user.3@foo.') LIMIT 1[0m
+  [4;35;1mUser Load (0.2ms)[0m   [0mSELECT "users".id FROM "users" WHERE (LOWER("users"."email") = 'user@example.com') LIMIT 1[0m
+  [4;36;1mUser Create (0.3ms)[0m   [0;1mINSERT INTO "users" ("name", "created_at", "updated_at", "email") VALUES('Example User', '2010-06-12 06:55:50', '2010-06-12 06:55:50', 'user@example.com')[0m
+  [4;35;1mUser Load (0.2ms)[0m   [0mSELECT "users".id FROM "users" WHERE (LOWER("users"."email") = 'user@example.com') LIMIT 1[0m
+  [4;36;1mUser Load (0.2ms)[0m   [0;1mSELECT "users".id FROM "users" WHERE (LOWER("users"."email") = 'user@example.com') LIMIT 1[0m
+  [4;35;1mUser Create (0.3ms)[0m   [0mINSERT INTO "users" ("name", "created_at", "updated_at", "email") VALUES('Example User', '2010-06-12 06:55:50', '2010-06-12 06:55:50', 'USER@EXAMPLE.COM')[0m
+  [4;36;1mUser Load (0.2ms)[0m   [0;1mSELECT "users".id FROM "users" WHERE (LOWER("users"."email") = 'user@example.com') LIMIT 1[0m
+
+
+Processing PagesController#help (for 0.0.0.0 at 2010-06-12 02:55:51) [GET]
+Rendering template within layouts/application
+Rendering pages/help
+Rendered layouts/_stylesheets (1.0ms)
+Rendered layouts/_header (6.6ms)
+Rendered layouts/_footer (0.6ms)
+Completed in 14ms (View: 12, DB: 0) | 200 OK [http://test.host/help]
+
+
+Processing PagesController#help (for 0.0.0.0 at 2010-06-12 02:55:51) [GET]
+Rendering template within layouts/application
+Rendering pages/help
+Rendered layouts/_stylesheets (0.5ms)
+Rendered layouts/_header (0.5ms)
+Rendered layouts/_footer (0.2ms)
+Completed in 3ms (View: 2, DB: 0) | 200 OK [http://test.host/help]
+
+
+Processing PagesController#about (for 0.0.0.0 at 2010-06-12 02:55:51) [GET]
+Rendering template within layouts/application
+Rendering pages/about
+Rendered layouts/_stylesheets (0.5ms)
+Rendered layouts/_header (0.5ms)
+Rendered layouts/_footer (0.2ms)
+Completed in 3ms (View: 3, DB: 0) | 200 OK [http://test.host/about]
+
+
+Processing PagesController#about (for 0.0.0.0 at 2010-06-12 02:55:51) [GET]
+Rendering template within layouts/application
+Rendering pages/about
+Rendered layouts/_stylesheets (0.4ms)
+Rendered layouts/_header (0.5ms)
+Rendered layouts/_footer (0.2ms)
+Completed in 3ms (View: 2, DB: 0) | 200 OK [http://test.host/about]
+
+
+Processing PagesController#contact (for 0.0.0.0 at 2010-06-12 02:55:51) [GET]
+Rendering template within layouts/application
+Rendering pages/contact
+Rendered layouts/_stylesheets (0.5ms)
+Rendered layouts/_header (0.5ms)
+Rendered layouts/_footer (0.2ms)
+Completed in 3ms (View: 3, DB: 0) | 200 OK [http://test.host/contact]
+
+
+Processing PagesController#contact (for 0.0.0.0 at 2010-06-12 02:55:51) [GET]
+Rendering template within layouts/application
+Rendering pages/contact
+Rendered layouts/_stylesheets (0.5ms)
+Rendered layouts/_header (0.5ms)
+Rendered layouts/_footer (0.2ms)
+Completed in 3ms (View: 2, DB: 0) | 200 OK [http://test.host/contact]
+
+
+Processing PagesController#home (for 0.0.0.0 at 2010-06-12 02:55:51) [GET]
+Rendering template within layouts/application
+Rendering pages/home
+Rendered layouts/_stylesheets (0.6ms)
+Rendered layouts/_header (0.5ms)
+Rendered layouts/_footer (0.2ms)
+Completed in 4ms (View: 3, DB: 0) | 200 OK [http://test.host/]
+
+
+Processing PagesController#home (for 0.0.0.0 at 2010-06-12 02:55:51) [GET]
+Rendering template within layouts/application
+Rendering pages/home
+Rendered layouts/_stylesheets (1.0ms)
+Rendered layouts/_header (0.5ms)
+Rendered layouts/_footer (0.2ms)
+Completed in 3ms (View: 3, DB: 0) | 200 OK [http://test.host/]
+
+
+Processing UsersController#new (for 0.0.0.0 at 2010-06-12 02:55:51) [GET]
+Rendering template within layouts/application
+Rendering users/new
+Rendered layouts/_stylesheets (0.5ms)
+Rendered layouts/_header (1.1ms)
+Rendered layouts/_footer (0.2ms)
+Completed in 5ms (View: 3, DB: 0) | 200 OK [http://test.host/signup]
+
+
+Processing UsersController#new (for 0.0.0.0 at 2010-06-12 02:55:51) [GET]
+Rendering template within layouts/application
+Rendering users/new
+Rendered layouts/_stylesheets (0.5ms)
+Rendered layouts/_header (0.5ms)
+Rendered layouts/_footer (0.2ms)
+Completed in 3ms (View: 3, DB: 0) | 200 OK [http://test.host/signup]
+  [4;36;1mUser Load (0.2ms)[0m   [0;1mSELECT "users".id FROM "users" WHERE (LOWER("users"."email") = 'user@example.com') LIMIT 1[0m
+  [4;35;1mUser Create (0.4ms)[0m   [0mINSERT INTO "users" ("name", "created_at", "updated_at", "email") VALUES('Example User', '2010-06-12 06:55:51', '2010-06-12 06:55:51', 'user@example.com')[0m
+  [4;36;1mUser Load (0.2ms)[0m   [0;1mSELECT "users".id FROM "users" WHERE (LOWER("users"."email") = 'user@example.com') LIMIT 1[0m
+  [4;35;1mUser Load (0.1ms)[0m   [0mSELECT "users".id FROM "users" WHERE (LOWER("users"."email") = 'user@example.com') LIMIT 1[0m
+  [4;36;1mUser Load (0.1ms)[0m   [0;1mSELECT "users".id FROM "users" WHERE (LOWER("users"."email") = '') LIMIT 1[0m
+  [4;35;1mUser Load (0.6ms)[0m   [0mSELECT "users".id FROM "users" WHERE (LOWER("users"."email") = 'user@foo.com') LIMIT 1[0m
+  [4;36;1mUser Load (0.1ms)[0m   [0;1mSELECT "users".id FROM "users" WHERE (LOWER("users"."email") = 'user_2@foo.bar.org') LIMIT 1[0m
+  [4;35;1mUser Load (0.1ms)[0m   [0mSELECT "users".id FROM "users" WHERE (LOWER("users"."email") = 'user.3@foo.jp') LIMIT 1[0m
+  [4;36;1mUser Load (0.2ms)[0m   [0;1mSELECT "users".id FROM "users" WHERE (LOWER("users"."email") = 'user@foo,com') LIMIT 1[0m
+  [4;35;1mUser Load (0.1ms)[0m   [0mSELECT "users".id FROM "users" WHERE (LOWER("users"."email") = 'user_2foo.bar.org') LIMIT 1[0m
+  [4;36;1mUser Load (0.1ms)[0m   [0;1mSELECT "users".id FROM "users" WHERE (LOWER("users"."email") = 'user.3@foo.') LIMIT 1[0m
+  [4;35;1mUser Load (0.2ms)[0m   [0mSELECT "users".id FROM "users" WHERE (LOWER("users"."email") = 'user@example.com') LIMIT 1[0m
+  [4;36;1mUser Create (0.3ms)[0m   [0;1mINSERT INTO "users" ("name", "created_at", "updated_at", "email") VALUES('Example User', '2010-06-12 06:55:51', '2010-06-12 06:55:51', 'user@example.com')[0m
+  [4;35;1mUser Load (0.2ms)[0m   [0mSELECT "users".id FROM "users" WHERE (LOWER("users"."email") = 'user@example.com') LIMIT 1[0m
+  [4;36;1mUser Load (0.2ms)[0m   [0;1mSELECT "users".id FROM "users" WHERE (LOWER("users"."email") = 'user@example.com') LIMIT 1[0m
+  [4;35;1mUser Create (0.3ms)[0m   [0mINSERT INTO "users" ("name", "created_at", "updated_at", "email") VALUES('Example User', '2010-06-12 06:55:51', '2010-06-12 06:55:51', 'USER@EXAMPLE.COM')[0m
+  [4;36;1mUser Load (0.2ms)[0m   [0;1mSELECT "users".id FROM "users" WHERE (LOWER("users"."email") = 'user@example.com') LIMIT 1[0m
