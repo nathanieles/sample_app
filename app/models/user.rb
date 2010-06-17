@@ -35,7 +35,7 @@ class User < ActiveRecord::Base
   def encrypt_password 
     #take another look at this
     self.salt = make_salt
-    self.encrypted_password = encrypt (password)
+    self.encrypted_password = encrypt(password)
   end
 
   def encrypt (string)

@@ -4,7 +4,7 @@ ActionController::Routing::Routes.draw do |map|
   map.about '/about', :controller => 'pages', :action => 'about'
   map.help '/help', :controller => 'pages', :action => 'help'
   map.signup '/signup', :controller => 'users', :action => 'new'
-  # I'm not entirely sure how the .resources works
+
   map.resources :users
   # Sample of regular route:
   #   map.connect 'products/:id', :controller => 'catalog', :action => 'view'
