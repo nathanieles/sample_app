@@ -7,7 +7,7 @@ class User < ActiveRecord::Base
   validates_length_of :name, :maximum => 50
   validates_format_of :email, :with => EmailRegex
   validates_uniqueness_of :email, :case_sensitive => false 
-  
+
   #automatically create the virtial attribute 'password_confirmation'.
   validates_confirmation_of :password
 
@@ -17,25 +17,32 @@ class User < ActiveRecord::Base
 
   #gets called before saving the user to the database
   before_save :encrypt_password
-  
+
   #return true if the user's password matches the submitted password.
   def has_password?(submitted_password)
     #compare encyp. password with the encytped version of submitted_password
     encrypted_password == encrypt(submitted_password)
   end
-  
+
   def self.authenticate(email, submitted_password)
     user = find_by_email(email)
     return nil if user.nil?
     return user if user.has_password?(submitted_password)
   end
 
+  def remember_me!
+    self.remember_token = encrypt("#{salt}--#{id}--#{Time.now.utc}")
+    save_without_validation
+  end
+
   private 
 
   def encrypt_password 
     #take another look at this
-    self.salt = make_salt
-    self.encrypted_password = encrypt(password)
+    unless password.nil?
+      self.salt = make_salt
+      self.encrypted_password = encrypt(password)
+    end
   end
 
   def encrypt (string)

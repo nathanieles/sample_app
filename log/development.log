@@ -5114,3 +5114,248 @@ Rendered layouts/_footer (0.2ms)
 Completed in 29ms (View: 21, DB: 0) | 200 OK [http://0.0.0.0/users]
   [4;36;1mSQL (0.2ms)[0m   [0;1mSELECT count(*) AS count_all FROM "users" [0m
   [4;35;1mUser Load (0.4ms)[0m   [0mSELECT * FROM "users" [0m
+
+
+Processing SessionsController#new (for 127.0.0.1 at 2010-06-19 23:01:26) [GET]
+  Parameters: {"action"=>"new", "controller"=>"sessions"}
+Rendering template within layouts/application
+Rendering sessions/new
+Rendered layouts/_stylesheets (1.4ms)
+Rendered layouts/_header (1.2ms)
+Rendered layouts/_footer (0.8ms)
+Completed in 136ms (View: 134, DB: 0) | 200 OK [http://0.0.0.0/signin]
+
+
+Processing SessionsController#create (for 127.0.0.1 at 2010-06-19 23:03:38) [POST]
+  Parameters: {"commit"=>"Sign in", "session"=>{"password"=>"[FILTERED]", "email"=>""}, "action"=>"create", "authenticity_token"=>"K5dXRV5LB8jGJMyIu/dPl2QCpd/k3MEv299JzzVIQus=", "controller"=>"sessions"}
+Rendering template within layouts/application
+Rendering sessions/new
+Rendered layouts/_stylesheets (0.6ms)
+Rendered layouts/_header (0.5ms)
+Rendered layouts/_footer (0.2ms)
+Completed in 9ms (View: 6, DB: 0) | 200 OK [http://0.0.0.0/sessions]
+
+
+Processing SessionsController#create (for 127.0.0.1 at 2010-06-19 23:03:40) [POST]
+  Parameters: {"commit"=>"Sign in", "session"=>{"password"=>"[FILTERED]", "email"=>""}, "action"=>"create", "authenticity_token"=>"K5dXRV5LB8jGJMyIu/dPl2QCpd/k3MEv299JzzVIQus=", "controller"=>"sessions"}
+Rendering template within layouts/application
+Rendering sessions/new
+Rendered layouts/_stylesheets (0.5ms)
+Rendered layouts/_header (0.5ms)
+Rendered layouts/_footer (0.2ms)
+Completed in 7ms (View: 5, DB: 0) | 200 OK [http://0.0.0.0/sessions]
+
+
+Processing SessionsController#create (for 127.0.0.1 at 2010-06-19 23:03:41) [POST]
+  Parameters: {"commit"=>"Sign in", "session"=>{"password"=>"[FILTERED]", "email"=>""}, "action"=>"create", "authenticity_token"=>"K5dXRV5LB8jGJMyIu/dPl2QCpd/k3MEv299JzzVIQus=", "controller"=>"sessions"}
+Rendering template within layouts/application
+Rendering sessions/new
+Rendered layouts/_stylesheets (0.7ms)
+Rendered layouts/_header (0.5ms)
+Rendered layouts/_footer (0.2ms)
+Completed in 8ms (View: 6, DB: 0) | 200 OK [http://0.0.0.0/sessions]
+  [4;36;1mSQL (0.9ms)[0m   [0;1m SELECT name
+ FROM sqlite_master
+ WHERE type = 'table' AND NOT name = 'sqlite_sequence'
+[0m
+  [4;35;1mSQL (19.1ms)[0m   [0mSELECT version FROM schema_migrations[0m
+Migrating to CreateUsers (20100612042436)
+Migrating to AddEmailUniquenessIndex (20100612065832)
+Migrating to AddPasswordToUsers (20100614060030)
+Migrating to AddSaltToUsers (20100614142931)
+Migrating to AddRememberTokenToUsers (20100621142216)
+  [4;36;1mSQL (0.2ms)[0m   [0;1mselect sqlite_version(*)[0m
+  [4;35;1mSQL (0.9ms)[0m   [0mALTER TABLE "users" ADD "remember_token" varchar(255)[0m
+  [4;36;1mSQL (0.3ms)[0m   [0;1mCREATE INDEX "index_users_on_remember_token" ON "users" ("remember_token")[0m
+  [4;35;1mSQL (0.2ms)[0m   [0mINSERT INTO schema_migrations (version) VALUES ('20100621142216')[0m
+  [4;36;1mSQL (0.5ms)[0m   [0;1m SELECT name
+ FROM sqlite_master
+ WHERE type = 'table' AND NOT name = 'sqlite_sequence'
+[0m
+  [4;35;1mSQL (0.3ms)[0m   [0mSELECT version FROM schema_migrations[0m
+  [4;36;1mSQL (0.2ms)[0m   [0;1m SELECT name
+ FROM sqlite_master
+ WHERE type = 'table' AND NOT name = 'sqlite_sequence'
+[0m
+  [4;35;1mSQL (0.2ms)[0m   [0mPRAGMA index_list("users")[0m
+  [4;36;1mSQL (0.1ms)[0m   [0;1mPRAGMA index_info('index_users_on_remember_token')[0m
+  [4;35;1mSQL (0.1ms)[0m   [0mPRAGMA index_info('index_users_on_email')[0m
+  [4;36;1mSQL (0.7ms)[0m   [0;1m SELECT name
+ FROM sqlite_master
+ WHERE type = 'table' AND NOT name = 'sqlite_sequence'
+[0m
+  [4;35;1mSQL (0.3ms)[0m   [0mSELECT version FROM schema_migrations[0m
+  [4;36;1mSQL (0.2ms)[0m   [0;1mselect sqlite_version(*)[0m
+  [4;35;1mSQL (0.4ms)[0m   [0m SELECT name
+ FROM sqlite_master
+ WHERE type = 'table' AND NOT name = 'sqlite_sequence'
+[0m
+  [4;36;1mSQL (2.8ms)[0m   [0;1mCREATE TABLE "users" ("id" INTEGER PRIMARY KEY AUTOINCREMENT NOT NULL, "name" varchar(255), "email" varchar(255), "created_at" datetime, "updated_at" datetime, "encrypted_password" varchar(255), "salt" varchar(255), "remember_token" varchar(255)) [0m
+  [4;35;1mSQL (2.3ms)[0m   [0mCREATE UNIQUE INDEX "index_users_on_email" ON "users" ("email")[0m
+  [4;36;1mSQL (3.6ms)[0m   [0;1mCREATE INDEX "index_users_on_remember_token" ON "users" ("remember_token")[0m
+  [4;35;1mSQL (0.2ms)[0m   [0m SELECT name
+ FROM sqlite_master
+ WHERE type = 'table' AND NOT name = 'sqlite_sequence'
+[0m
+  [4;36;1mSQL (2.1ms)[0m   [0;1mCREATE TABLE "schema_migrations" ("version" varchar(255) NOT NULL) [0m
+  [4;35;1mSQL (2.2ms)[0m   [0mCREATE UNIQUE INDEX "unique_schema_migrations" ON "schema_migrations" ("version")[0m
+  [4;36;1mSQL (0.2ms)[0m   [0;1m SELECT name
+ FROM sqlite_master
+ WHERE type = 'table' AND NOT name = 'sqlite_sequence'
+[0m
+  [4;35;1mSQL (0.1ms)[0m   [0mSELECT version FROM "schema_migrations"[0m
+  [4;36;1mSQL (2.0ms)[0m   [0;1mINSERT INTO "schema_migrations" (version) VALUES ('20100621142216')[0m
+  [4;35;1mSQL (2.2ms)[0m   [0mINSERT INTO "schema_migrations" (version) VALUES ('20100612042436')[0m
+  [4;36;1mSQL (2.0ms)[0m   [0;1mINSERT INTO "schema_migrations" (version) VALUES ('20100612065832')[0m
+  [4;35;1mSQL (2.0ms)[0m   [0mINSERT INTO "schema_migrations" (version) VALUES ('20100614060030')[0m
+  [4;36;1mSQL (1.8ms)[0m   [0;1mINSERT INTO "schema_migrations" (version) VALUES ('20100614142931')[0m
+
+
+Processing PagesController#home (for 127.0.0.1 at 2010-06-21 14:32:58) [GET]
+  Parameters: {"action"=>"home", "controller"=>"pages"}
+Rendering template within layouts/application
+Rendering pages/home
+Rendered layouts/_stylesheets (1.1ms)
+Rendered layouts/_header (50.4ms)
+Rendered layouts/_footer (0.8ms)
+Completed in 110ms (View: 108, DB: 0) | 200 OK [http://0.0.0.0/]
+
+
+Processing SessionsController#new (for 127.0.0.1 at 2010-06-21 14:33:01) [GET]
+  Parameters: {"action"=>"new", "controller"=>"sessions"}
+Rendering template within layouts/application
+Rendering sessions/new
+Rendered layouts/_stylesheets (1.0ms)
+Rendered layouts/_header (0.5ms)
+Rendered layouts/_footer (0.2ms)
+Completed in 14ms (View: 13, DB: 0) | 200 OK [http://0.0.0.0/signin]
+
+
+Processing SessionsController#create (for 127.0.0.1 at 2010-06-21 14:33:15) [POST]
+  Parameters: {"commit"=>"Sign in", "session"=>{"password"=>"[FILTERED]", "email"=>"americaskate@gmail.com"}, "action"=>"create", "authenticity_token"=>"K5dXRV5LB8jGJMyIu/dPl2QCpd/k3MEv299JzzVIQus=", "controller"=>"sessions"}
+  [4;36;1mUser Load (0.3ms)[0m   [0;1mSELECT * FROM "users" WHERE ("users"."email" = 'americaskate@gmail.com') LIMIT 1[0m
+Rendering template within layouts/application
+Rendering sessions/new
+Rendered layouts/_stylesheets (0.5ms)
+Rendered layouts/_header (0.5ms)
+Rendered layouts/_footer (0.2ms)
+Completed in 88ms (View: 6, DB: 0) | 200 OK [http://0.0.0.0/sessions]
+
+
+Processing UsersController#new (for 127.0.0.1 at 2010-06-21 14:33:19) [GET]
+  Parameters: {"action"=>"new", "controller"=>"users"}
+Rendering template within layouts/application
+Rendering users/new
+Rendered layouts/_stylesheets (0.5ms)
+Rendered layouts/_header (0.6ms)
+Rendered layouts/_footer (0.2ms)
+Completed in 21ms (View: 15, DB: 0) | 200 OK [http://0.0.0.0/signup]
+
+
+Processing UsersController#create (for 127.0.0.1 at 2010-06-21 14:33:38) [POST]
+  Parameters: {"commit"=>"Sign up", "action"=>"create", "authenticity_token"=>"K5dXRV5LB8jGJMyIu/dPl2QCpd/k3MEv299JzzVIQus=", "controller"=>"users", "user"=>{"name"=>"nathaniele", "password_confirmation"=>"[FILTERED]", "password"=>"[FILTERED]", "email"=>"americaskate1@gmail.com"}}
+  [4;35;1mUser Load (0.3ms)[0m   [0mSELECT "users".id FROM "users" WHERE (LOWER("users"."email") = 'americaskate1@gmail.com') LIMIT 1[0m
+Rendering template within layouts/application
+Rendering users/new
+Rendered layouts/_stylesheets (0.6ms)
+Rendered layouts/_header (0.6ms)
+Rendered layouts/_footer (0.2ms)
+Completed in 1321ms (View: 88, DB: 0) | 200 OK [http://0.0.0.0/users]
+
+
+Processing UsersController#create (for 127.0.0.1 at 2010-06-21 14:33:52) [POST]
+  Parameters: {"commit"=>"Sign up", "action"=>"create", "authenticity_token"=>"K5dXRV5LB8jGJMyIu/dPl2QCpd/k3MEv299JzzVIQus=", "controller"=>"users", "user"=>{"name"=>"nathaniele", "password_confirmation"=>"[FILTERED]", "password"=>"[FILTERED]", "email"=>"americaskate1@gmail.com"}}
+  [4;36;1mUser Load (0.2ms)[0m   [0;1mSELECT "users".id FROM "users" WHERE (LOWER("users"."email") = 'americaskate1@gmail.com') LIMIT 1[0m
+  [4;35;1mUser Create (33.8ms)[0m   [0mINSERT INTO "users" ("name", "encrypted_password", "salt", "created_at", "updated_at", "remember_token", "email") VALUES('nathaniele', '45ae92da9cf053faa7ce25f30646c5b3bdef6b992996484ab6e9471c0ec55abf', '5c17a7349c5e310c3aa31f7941954b1a17baddd2474dd20ccfa7c64a914022df', '2010-06-21 18:33:52', '2010-06-21 18:33:52', NULL, 'americaskate1@gmail.com')[0m
+  [4;36;1mUser Update (5.1ms)[0m   [0;1mUPDATE "users" SET "updated_at" = '2010-06-21 18:33:52', "remember_token" = '5c17a7349c5e310c3aa31f7941954b1a17baddd2474dd20ccfa7c64a914022df--3--Mon Jun 21 18:33:52 UTC 2010' WHERE "id" = 3[0m
+Redirected to http://0.0.0.0:3000/users/3
+Completed in 384ms (DB: 39) | 302 Found [http://0.0.0.0/users]
+
+
+Processing UsersController#show (for 127.0.0.1 at 2010-06-21 14:33:52) [GET]
+  Parameters: {"action"=>"show", "id"=>"3", "controller"=>"users"}
+  [4;35;1mUser Load (0.2ms)[0m   [0mSELECT * FROM "users" WHERE ("users"."id" = 3) [0m
+Rendering template within layouts/application
+Rendering users/show
+Rendered layouts/_stylesheets (0.8ms)
+Rendered layouts/_header (0.7ms)
+Rendered layouts/_footer (0.2ms)
+Completed in 22ms (View: 11, DB: 0) | 200 OK [http://0.0.0.0/users/3]
+
+
+Processing SessionsController#new (for 127.0.0.1 at 2010-06-21 14:34:06) [GET]
+  Parameters: {"action"=>"new", "controller"=>"sessions"}
+Rendering template within layouts/application
+Rendering sessions/new
+Rendered layouts/_stylesheets (0.6ms)
+Rendered layouts/_header (0.6ms)
+Rendered layouts/_footer (0.2ms)
+Completed in 7ms (View: 6, DB: 0) | 200 OK [http://0.0.0.0/signin]
+
+
+Processing PagesController#home (for 127.0.0.1 at 2010-06-21 15:00:44) [GET]
+  Parameters: {"action"=>"home", "controller"=>"pages"}
+Rendering template within layouts/application
+Rendering pages/home
+Rendered layouts/_stylesheets (1.3ms)
+  [4;36;1mUser Load (0.4ms)[0m   [0;1mSELECT * FROM "users" WHERE ("users"."remember_token" = '5c17a7349c5e310c3aa31f7941954b1a17baddd2474dd20ccfa7c64a914022df--3--Mon Jun 21 18:33:52 UTC 2010') LIMIT 1[0m
+Rendered layouts/_header (88.8ms)
+Rendered layouts/_footer (0.8ms)
+Completed in 152ms (View: 150, DB: 0) | 200 OK [http://0.0.0.0/]
+
+
+Processing SessionsController#destroy (for 127.0.0.1 at 2010-06-21 15:00:49) [DELETE]
+  Parameters: {"action"=>"destroy", "_method"=>"delete", "authenticity_token"=>"K5dXRV5LB8jGJMyIu/dPl2QCpd/k3MEv299JzzVIQus=", "controller"=>"sessions"}
+Redirected to http://0.0.0.0:3000/
+Completed in 2ms (DB: 0) | 302 Found [http://0.0.0.0/signout]
+
+
+Processing PagesController#home (for 127.0.0.1 at 2010-06-21 15:00:49) [GET]
+  Parameters: {"action"=>"home", "controller"=>"pages"}
+Rendering template within layouts/application
+Rendering pages/home
+Rendered layouts/_stylesheets (0.6ms)
+Rendered layouts/_header (0.7ms)
+Rendered layouts/_footer (0.2ms)
+Completed in 6ms (View: 4, DB: 0) | 200 OK [http://0.0.0.0/]
+
+
+Processing SessionsController#new (for 127.0.0.1 at 2010-06-21 15:00:50) [GET]
+  Parameters: {"action"=>"new", "controller"=>"sessions"}
+Rendering template within layouts/application
+Rendering sessions/new
+Rendered layouts/_stylesheets (0.5ms)
+Rendered layouts/_header (0.5ms)
+Rendered layouts/_footer (0.2ms)
+Completed in 15ms (View: 13, DB: 0) | 200 OK [http://0.0.0.0/signin]
+
+
+Processing SessionsController#create (for 127.0.0.1 at 2010-06-21 15:01:03) [POST]
+  Parameters: {"commit"=>"Sign in", "session"=>{"password"=>"[FILTERED]", "email"=>"americaskate2@gmail.com"}, "action"=>"create", "authenticity_token"=>"K5dXRV5LB8jGJMyIu/dPl2QCpd/k3MEv299JzzVIQus=", "controller"=>"sessions"}
+  [4;35;1mUser Load (0.1ms)[0m   [0mSELECT * FROM "users" WHERE ("users"."email" = 'americaskate2@gmail.com') LIMIT 1[0m
+Rendering template within layouts/application
+Rendering sessions/new
+Rendered layouts/_stylesheets (0.5ms)
+Rendered layouts/_header (0.6ms)
+Rendered layouts/_footer (0.2ms)
+Completed in 13ms (View: 6, DB: 0) | 200 OK [http://0.0.0.0/sessions]
+
+
+Processing SessionsController#create (for 127.0.0.1 at 2010-06-21 15:01:21) [POST]
+  Parameters: {"commit"=>"Sign in", "session"=>{"password"=>"[FILTERED]", "email"=>"americaskate1@gmail.com"}, "action"=>"create", "authenticity_token"=>"K5dXRV5LB8jGJMyIu/dPl2QCpd/k3MEv299JzzVIQus=", "controller"=>"sessions"}
+  [4;36;1mUser Load (0.3ms)[0m   [0;1mSELECT * FROM "users" WHERE ("users"."email" = 'americaskate1@gmail.com') LIMIT 1[0m
+  [4;35;1mUser Update (17.0ms)[0m   [0mUPDATE "users" SET "updated_at" = '2010-06-21 19:01:21', "remember_token" = 'cc92a2fdc8269d54ea3c4f8e2c68106b056aed2ad47329c0594b1a0e73f05da5' WHERE "id" = 3[0m
+Redirected to http://0.0.0.0:3000/users/3
+Completed in 295ms (DB: 17) | 302 Found [http://0.0.0.0/sessions]
+
+
+Processing UsersController#show (for 127.0.0.1 at 2010-06-21 15:01:21) [GET]
+  Parameters: {"action"=>"show", "id"=>"3", "controller"=>"users"}
+  [4;36;1mUser Load (0.3ms)[0m   [0;1mSELECT * FROM "users" WHERE ("users"."id" = 3) [0m
+Rendering template within layouts/application
+Rendering users/show
+Rendered layouts/_stylesheets (0.6ms)
+  [4;35;1mUser Load (0.5ms)[0m   [0mSELECT * FROM "users" WHERE ("users"."remember_token" = 'cc92a2fdc8269d54ea3c4f8e2c68106b056aed2ad47329c0594b1a0e73f05da5') LIMIT 1[0m
+Rendered layouts/_header (4.9ms)
+Rendered layouts/_footer (0.2ms)
+Completed in 24ms (View: 16, DB: 1) | 200 OK [http://0.0.0.0/users/3]
